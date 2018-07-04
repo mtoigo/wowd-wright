@@ -871,7 +871,14 @@ a {
 // -----------------------------------------
 
 //  Fix for Form Block input text in overlay areas
-
 .sqs-alternate-block-style-container .sqs-block-form input {
   color: #272727;
+}
+
+#playBar {
+  min-height: 29px * 2;
+  background-color: @playBarBackgroundColor;
+  @media screen and (min-width: 641px) {
+    padding: 20px;
+  }
 }
