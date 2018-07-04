@@ -1,9 +1,10 @@
-Wright
+WOWD Wright
 ------------------------------
 
-A versatile, all-purpose Squarespace Template Framework.
+## Squarespace Wright (a.k.a. "Brine") template adapted for takomaradio.org.
 
-*NOTICE: This code is licensed to you pursuant to Squarespace’s Developer Terms of Use. See license section below.*
+**Modifications for WOWD from Wright**
+* Display blog post thumbnail images and titles as banner images, just like in Bedford
 
 **Features**
 * Parallax scrolling images and background video

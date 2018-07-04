@@ -1,11 +1,20 @@
-<section class="Intro{.background-source-video?} Intro--has-image{.or}{.if mainImage} Intro--has-image{.end}{.end}" data-parallax-original-element data-parallax-id="{id}"{.background-source-video?} data-controller="Parallax"{.or}{.if mainImage} data-controller="Parallax"{.end}{.end}>
-  <squarespace:block-field id="{id}_intro" class="Intro-content{.background-source-video?} sqs-alternate-block-style-container{.or}{.if mainImage} sqs-alternate-block-style-container{.end}{.end}" columns="12" label="{localizedStrings.intro}" />
+<section class="Intro{.background-source-video?} Intro--has-image{.or}{.main-image?} Intro--has-image{.end}" data-parallax-original-element data-parallax-id="{id}"{.background-source-video?} data-controller="Parallax"{.or}{.if main-image?} data-controller="Parallax"{.end}{.end}>
+  {.if collectionId}
+    {# this is an item, not a collection. It's hard to tell since this partial takes both.}
+    {# only collections should have an open block field. }
+    <div class="Intro-content Intro-content-item">
+      <time class="post-date" datetime="{addedOn|date %F}" pubdate>{addedOn|date %B %e, %Y}</time>
+      {.section title}<h1 class="post-title Intro-content-item-heading">{@}</h1>{.end}
+    </div>
+  {.or}
+    <squarespace:block-field id="{id}_intro" class="Intro-content{.background-source-video?} sqs-alternate-block-style-container{.or}{.if mainImage} sqs-alternate-block-style-container{.end}{.end}" columns="12" label="{localizedStrings.intro}" />
+  {.end}
   {.background-source-video?}
     <figure class="Intro-image" data-parallax-image-wrapper>
       {@|apply background-media.block}
     </figure>
   {.or}
-    {.if mainImage}
+    {.if main-image?}
       <figure class="Intro-image" data-parallax-image-wrapper>
         {@|apply background-media.block}
       </figure>

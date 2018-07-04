@@ -571,6 +571,21 @@ a {
 
   }
 
+  &-content-item {
+    text-align: center;
+    .tweak-intro-content-font();
+
+    .post-date {
+      display: block;
+      margin-bottom: .75em;
+    }
+
+    &-heading {
+      margin: 0;
+      .tweak-intro-content-heading-font();
+    }
+  }
+
 }
 
 .Intro:not(.Intro--has-image) + .Main .Main-content {
