@@ -5,6 +5,9 @@ WOWD Wright
 
 **Modifications for WOWD from Wright**
 * Display blog post thumbnail images and titles as banner images, just like in Bedford
+* Add a third header that includes a global player
+* Add a "Listen Live" link to the nav with a play button.
+* Import wowd-components and create static pages that use these components.
 
 **Features**
 * Parallax scrolling images and background video
@@ -27,11 +30,56 @@ To use the local development process, you'll need to install the [Squarespace Lo
 npm start
 ```
 
+If this does not work, do not dispair, a workaround is below.
+
+### Manual deployment
+
+Note from WOWD developer Julian:
+The squarespace toolbelt that automates these steps appears to be broken with no current plans to fix it.
+If `npm run deploy` is still not functional, the same steps can be taken manually.
+
+Squarespace templates are modified via git.
+This git repo builds another git repo inside the `build` directory.
+The `build` directory is what is actually published to Squarespace.
+
+First, add a git remote to the `build` git repository to point to Squarespace.
+
+For example:
+```sh
+cd build
+git remote add prod https://takomaradio.squarespace.com/template.git
+cd ..
+```
+
+Then, to deploy:
+
+```sh
+npm run build
+cd build
+git add .
+git commit -m "changes"
+git push prod master
+```
+
+### Automated step (if it works for you)
+
 To deploy to your live Squarespace site, run:
 
 ```sh
 npm run deploy
 ```
+
+## Updating the wowd-components version
+
+```sh
+npm update wowd-components
+npm run build
+```
+
+The build step runs a script which copies the built files into the proper places in the template.
+See `copyComponents.sh` for details.
+
+Commit your changes, then, deploy per the instructions above.
 
 ## NPM Script Reference
 

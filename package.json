@@ -1,7 +1,7 @@
 {
-  "name": "wright-framework",
+  "name": "wowd-wright",
   "version": "1.0.0",
-  "author": "Squarespace, Inc.",
+  "author": "Squarespace, Inc. Modified by Julian Boilen",
   "description": "Wright Framework",
   "license": "SEE LICENSE IN LICENSE.txt",
   "repository": {
@@ -9,14 +9,15 @@
     "url": "https://github.com/Squarespace/wright-framework.git"
   },
   "scripts": {
-    "build": "squarespace assemble && webpack",
+    "build": "npm run copy-components && squarespace assemble && webpack",
     "clean": "squarespace clean",
     "deploy": "squarespace setup && squarespace deploy",
     "lint": "eslint scripts",
     "start": "squarespace setup && (npm run watch & npm run server)",
     "server": "squarespace runserver --auth",
     "server:auth": "npm run server -- --run-authenticated",
-    "watch": "squarespace assemble --watch & webpack --watch"
+    "watch": "squarespace assemble --watch & webpack --watch",
+    "copy-components": "./copyComponents.sh"
   },
   "dependencies": {
     "@squarespace/ancillary": "1.0.2",
@@ -43,9 +44,10 @@
     "copy-webpack-plugin": "^4.5.2",
     "eslint": "^3.14.1",
     "eslint-config-squarespace": "^1.0.0",
-    "webpack": "^1.14.0"
+    "webpack": "^1.14.0",
+    "wowd-components": "0.0.1"
   },
   "squarespace": {
-    "templateId": "brine-demo"
+    "templateId": "wowd-wright"
   }
 }

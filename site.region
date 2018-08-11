@@ -189,7 +189,7 @@
     </div>
 
     <squarespace:script src="site-bundle.js" combo="false" />
-    <squarespace:script src="app.bundle.js" combo="false" />
+    <squarespace:script src="components.bundle.js" combo="false" />
 
 
     {squarespace-footers}

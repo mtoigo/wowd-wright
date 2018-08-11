@@ -30,7 +30,7 @@ var config = {
         comments: false
       }
     }),
-    new CopyWebpackPlugin([{ from: './scripts/app.bundle.js', to: 'app.bundle.js' }])
+    new CopyWebpackPlugin([{ from: './scripts/components.bundle.js', to: 'components.bundle.js' }])
   ]
 };
 
