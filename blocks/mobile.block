@@ -75,6 +75,10 @@
     <div class="Mobile-overlay-menu" data-controller="MobileOverlayFolders">
       <div class="Mobile-overlay-menu-main">
         <nav class="Mobile-overlay-nav Mobile-overlay-nav--primary" data-content-field="navigation">
+          <a data-controller="ListenLiveNavItem" class="Mobile-overlay-nav-item listenLiveNavItem">
+            <div class="listenLiveNavButton"></div>
+            <span>Listen Live</span>
+          </a>
           <squarespace:navigation navigationId="mainNavigation" template="mobile-nav" />
         </nav>
         <nav class="Mobile-overlay-nav Mobile-overlay-nav--secondary" data-content-field="navigation">

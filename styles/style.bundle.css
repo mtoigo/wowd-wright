@@ -1,0 +1,921 @@
+.grid-grid-MPiOy {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(261px, ~"1fr"));
+  grid-gap: 29px;
+}
+.no-cssgrid .grid-grid-MPiOy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  margin: 0 14.5px 29px 14.5px;
+}
+.no-cssgrid .grid-grid-MPiOy > * {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 231px;
+          flex: 1 1 231px;
+  margin: 0 14.5px 29px 14.5px;
+  width: 261px;
+}
+@media (max-width: 904px) {
+  .no-cssgrid .grid-grid-MPiOy > * {
+    -ms-flex-preferred-size: 452px;
+        flex-basis: 452px;
+  }
+}
+@media (max-width: 590px) {
+  .no-cssgrid .grid-grid-MPiOy > * {
+    -ms-flex-preferred-size: 590px;
+        flex-basis: 590px;
+  }
+}
+.ShowList-showList-1BA4- {
+  margin: 0;
+  padding: 0;
+}
+.ShowList-showList-1BA4- li {
+  list-style: none;
+}
+.ShowList-showList-1BA4- li > * {
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.ShowList-showList-1BA4- a {
+  color: #3d9991;
+  font-weight: bold;
+}
+.ShowList-showList-1BA4- a:hover {
+  text-decoration: underline;
+}
+.ShowCard-show-21vIT {
+  position: relative;
+  display: block;
+  border-radius: 3px;
+  border: 1px solid rgba(26, 26, 26, 0.2);
+  -webkit-box-shadow: 0px 2px 4px 0 rgba(26, 26, 26, 0.2);
+          box-shadow: 0px 2px 4px 0 rgba(26, 26, 26, 0.2);
+  padding: 14.5px;
+}
+.ShowCard-show-21vIT a {
+  color: #3d9991;
+  font-weight: bold;
+}
+.ShowCard-show-21vIT a:hover {
+  text-decoration: underline;
+}
+.ShowCard-show-21vIT a.ShowCard-dj-22NuN {
+  font-size: 14px;
+}
+.ShowCard-show-21vIT:hover {
+  border-color: rgba(26, 26, 26, 0.3);
+  -webkit-box-shadow: 0px 2px 4px 0 rgba(26, 26, 26, 0.3);
+          box-shadow: 0px 2px 4px 0 rgba(26, 26, 26, 0.3);
+}
+.ShowCard-show-21vIT {
+  padding-bottom: 58px;
+}
+.ShowCard-airTimes-1Vf5K {
+  position: absolute;
+  bottom: 0;
+  font-size: 14px;
+  text-align: center;
+  border-top: 1px solid rgba(26, 26, 26, 0.2);
+  line-height: 200%;
+  margin-left: -14.5px;
+  padding-bottom: 7.25px;
+  padding-top: 4.5px;
+  width: 100%;
+}
+.ShowCard-showName-YuUU0,
+.ShowCard-djs-J0Mlh {
+  text-align: center;
+  line-height: 200%;
+}
+.ShowCard-showName-YuUU0 {
+  font-weight: bold;
+}
+.ShowCard-dj-22NuN:not(:last-child)::after {
+  content: ', ';
+}
+.ShowCard-showDescription-3M5ij {
+  font-size: 14px;
+}
+.ShowCard-episodeList-OQKq2 {
+  padding: 0;
+  margin-top: 14.5px;
+}
+.ShowCard-episodeList-OQKq2 li {
+  list-style: none;
+}
+.ShowCard-episodeList-OQKq2 .ShowCard-playButton-A7yGU {
+  margin-right: 14.5px;
+}
+.PlayButton-playerButton-fFgNk {
+  font-size: 0;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 0;
+  color: rgba(26, 26, 26, 0.9);
+  vertical-align: text-top;
+}
+.PlayButton-playerButton-fFgNk .PlayButton-icon-2KN4q .background {
+  stroke: currentColor;
+}
+.PlayButton-playerButton-fFgNk.PlayButton-loading-3a-xn {
+  cursor: wait;
+}
+.PlayButton-playerButton-fFgNk.PlayButton-light-mZm6A {
+  color: white;
+}
+.PlayButton-playerButton-fFgNk.PlayButton-primary-1nIJe {
+  color: white;
+}
+.PlayButton-playerButton-fFgNk.PlayButton-primary-1nIJe .PlayButton-icon-2KN4q .background {
+  fill: #ae5a39;
+  stroke: none;
+}
+.PlayButton-playerButton-fFgNk.PlayButton-large-2EO9S {
+  width: 44px;
+  min-width: 44px;
+  height: 44px;
+}
+.PlayButton-playerButton-fFgNk.PlayButton-large-2EO9S::before {
+  font-size: 20px;
+  line-height: 43px;
+  padding-left: 4px;
+}
+.PlayButton-playerButton-fFgNk.PlayButton-large-2EO9S.PlayButton-playing-iKurU::before {
+  font-size: 15px;
+  line-height: 41px;
+}
+.PlayButton-playerButton-fFgNk.PlayButton-small-3tNuz {
+  min-width: 22px;
+  height: 22px;
+}
+.PlayButton-playerButton-fFgNk.PlayButton-small-3tNuz::before {
+  font-size: 10px;
+  line-height: 21.5px;
+}
+.PlayButton-playerButton-fFgNk.PlayButton-small-3tNuz .PlayButton-icon-2KN4q {
+  height: 22px;
+  width: 22px;
+}
+@-webkit-keyframes waveFade1 {
+  0% {
+    opacity: 0;
+  }
+  20%,
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes waveFade1 {
+  0% {
+    opacity: 0;
+  }
+  20%,
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes waveFade2 {
+  0%,
+  20% {
+    opacity: 0;
+  }
+  40%,
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes waveFade2 {
+  0%,
+  20% {
+    opacity: 0;
+  }
+  40%,
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes waveFade3 {
+  0%,
+  40% {
+    opacity: 0;
+  }
+  60%,
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes waveFade3 {
+  0%,
+  40% {
+    opacity: 0;
+  }
+  60%,
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.PlayButton-loading-3a-xn .PlayButton-icon-2KN4q .wave1 {
+  -webkit-animation: 1.5s waveFade1 ease-in normal infinite;
+          animation: 1.5s waveFade1 ease-in normal infinite;
+}
+.PlayButton-loading-3a-xn .PlayButton-icon-2KN4q .wave2 {
+  -webkit-animation: 1.5s waveFade2 ease-in normal infinite;
+          animation: 1.5s waveFade2 ease-in normal infinite;
+}
+.PlayButton-loading-3a-xn .PlayButton-icon-2KN4q .wave3 {
+  -webkit-animation: 1.5s waveFade3 ease-in normal infinite;
+          animation: 1.5s waveFade3 ease-in normal infinite;
+}
+.Shows-controls-2tHR1 {
+  margin-bottom: 29px;
+}
+input.Shows-filter-2R4cv {
+  height: 29px;
+  background-color: inherit;
+  border: none;
+  border-bottom: 1px solid rgba(26, 26, 26, 0.7);
+  outline: 0;
+  padding-left: 14.5px;
+  background: url(//takomaradio.org/s/icon-searchqueries-20-dark-1aRtm.png) no-repeat right 14.5px center;
+  padding-right: 34.5px;
+  opacity: 0.35;
+  font-size: 14px;
+}
+input.Shows-filter-2R4cv:focus {
+  opacity: 1;
+}
+input.Shows-filter-2R4cv::-webkit-input-placeholder {
+  color: rgba(26, 26, 26, 0.7);
+}
+input.Shows-filter-2R4cv:-ms-input-placeholder {
+  color: rgba(26, 26, 26, 0.7);
+}
+input.Shows-filter-2R4cv::-ms-input-placeholder {
+  color: rgba(26, 26, 26, 0.7);
+}
+input.Shows-filter-2R4cv::placeholder {
+  color: rgba(26, 26, 26, 0.7);
+}
+.no-cssgrid .Shows-filter-2R4cv {
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+}
+.EpisodeListItem-episode-360g9 {
+  padding-left: 43.5px;
+  position: relative;
+}
+.EpisodeListItem-episode-360g9 > * {
+  margin-bottom: 7.25px;
+}
+.EpisodeListItem-episode-360g9 .EpisodeListItem-title--tDQt {
+  font-weight: bold;
+}
+.EpisodeListItem-episode-360g9 .EpisodeListItem-title--tDQt a {
+  color: #3d9991;
+}
+.EpisodeListItem-episode-360g9 .EpisodeListItem-title--tDQt a:hover {
+  text-decoration: underline;
+}
+.EpisodeListItem-episode-360g9 .EpisodeListItem-show-PRfd4 a {
+  color: rgba(26, 26, 26, 0.7);
+  font-size: 14px;
+}
+.EpisodeListItem-episode-360g9 .EpisodeListItem-teaser-2k9kN {
+  font-size: 14px;
+}
+.EpisodeListItem-episode-360g9 .EpisodeListItem-inlineDate-1zYhg {
+  font-style: italic;
+}
+.EpisodeListItem-episode-360g9 .EpisodeListItem-inlineDate-1zYhg::after {
+  content: ' \2022   ';
+}
+.EpisodeListItem-episode-360g9 .EpisodeListItem-play-2Bewg {
+  position: absolute;
+  top: 0;
+  margin-left: -43.5px;
+  top: -2px;
+}
+.EpisodeListItem-episode-360g9 .EpisodeListItem-playlistButton-2bQt- {
+  display: block;
+  background: url(//takomaradio.org/s/playlist-2fuRj.svg) no-repeat left center;
+  background-size: 14px;
+  padding-left: 20px;
+  color: #1a1a1a;
+  opacity: 0.7;
+}
+.EpisodeListItem-episode-360g9 .EpisodeListItem-playlistButton-2bQt-:hover {
+  opacity: 0.9;
+}
+.list-list-WjaNU {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 29px;
+}
+.list-list-WjaNU li {
+  margin-bottom: 14.5px;
+  padding-bottom: 14.5px;
+  border-bottom: 1px solid rgba(26, 26, 26, 0.2);
+}
+.Show-container-20K28 {
+  position: relative;
+}
+.Show-episodes-lvp6F {
+}
+.Show-airTimes-3ugXh {
+  font-size: 14px;
+}
+.Show-dj-2QUSc:not(:last-child)::after {
+  content: ' / ';
+  color: rgba(26, 26, 26, 0.2);
+}
+.Show-dj-2QUSc:not(:last-child)::after:hover {
+  text-decoration: none !important;
+}
+.Show-image-2lAmR {
+  width: 100%;
+  margin-bottom: 14.5px;
+}
+.Show-showInfo-a_AWG a {
+  color: #3d9991;
+  font-weight: bold;
+}
+.Show-showInfo-a_AWG a:hover {
+  text-decoration: underline;
+}
+@media (min-width: 960px) {
+  .Show-episodes-lvp6F {
+    width: ~"calc(100% - 358px)";
+  }
+  .Show-showInfo-a_AWG {
+    width: 300px;
+    float: right;
+  }
+  .Show-showInfo-a_AWG::after {
+    content: '';
+    display: table;
+  }
+}
+.Show-disclaimer-1OAeR {
+  font-style: italic;
+  font-size: 14px;
+}
+.Episode-airDate-1Afv5 {
+  font-size: 14px;
+}
+.Episode-playlist-1ZY5A {
+}
+.Episode-play-2i_tJ {
+  display: block;
+  margin: 14.5px 0;
+}
+a.Episode-showName-3JSz6 {
+  color: #3d9991;
+  font-weight: bold;
+}
+a.Episode-showName-3JSz6:hover {
+  text-decoration: underline;
+}
+.Episode-playlistItem-3xIKZ {
+  position: relative;
+}
+.Episode-playlistItem-3xIKZ .Episode-airedOn-2sZ7V {
+  font-size: 14px;
+  font-style: italic;
+  color: rgba(26, 26, 26, 0.2);
+}
+.Episode-playlistItem-3xIKZ .Episode-songTitle-3rQJN {
+  font-weight: bold;
+}
+.Episode-playlistItem-3xIKZ .Episode-songArtist-3Oilw,
+.Episode-playlistItem-3xIKZ .Episode-songAlbum-1GuES {
+  font-size: 14px;
+}
+.Episode-playlistItem-3xIKZ .Episode-previewContainer-2tZ3O {
+  position: relative;
+  width: 100%;
+}
+.Episode-playlistItem-3xIKZ .Episode-preview-OypR4 {
+  width: 100%;
+  height: 80px;
+}
+@media (min-width: 960px) {
+  .Episode-playlistItem-3xIKZ .Episode-previewContainer-2tZ3O {
+    float: right;
+  }
+  .Episode-playlistItem-3xIKZ .Episode-previewContainer-2tZ3O {
+    width: 35%;
+  }
+}
+.Episode-playlistItem-3xIKZ:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.Dj-container-1DlYB {
+  position: relative;
+}
+.Dj-container-1DlYB a {
+  color: #3d9991;
+  font-weight: bold;
+}
+.Dj-container-1DlYB a:hover {
+  text-decoration: underline;
+}
+.Dj-episodes-3Uk7m {
+}
+.Dj-image-6tQQn {
+  width: 100%;
+  margin-bottom: 14.5px;
+}
+@media (min-width: 960px) {
+  .Dj-episodes-3Uk7m {
+    width: ~"calc(100% - 358px)";
+  }
+  .Dj-djInfo-3LsOO {
+    width: 300px;
+    float: right;
+  }
+  .Dj-djInfo-3LsOO::after {
+    content: '';
+    display: table;
+  }
+}
+.GlobalPlayer-container-2pUcI {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.GlobalPlayer-playButtonContainer-1Z2Ak {
+  margin-right: 29px;
+}
+.TrackInfo-container-UznKU {
+  font-size: 14px;
+  line-height: 21px;
+}
+.TrackInfo-heading-2LQvt {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.TrackInfo-show-18INr {
+  font-weight: bold;
+}
+.TrackInfo-djs-2vZWd {
+  display: inline;
+}
+.TrackInfo-dj-2YN57:not(:last-child)::after {
+  content: ', ';
+}
+.TrackInfo-timestamp-3275t {
+  display: inline-block;
+}
+.TrackInfo-timestamp-3275t.TrackInfo-singleMinutes-2CVVB {
+  min-width: 2.1em;
+}
+.TrackInfo-timestamp-3275t.TrackInfo-tensOfMinutes-3-MAE {
+  min-width: 2.7em;
+}
+.TrackInfo-timestamp-3275t.TrackInfo-hours-38pu0 {
+  min-width: 3.6em;
+}
+.rc-trigger-popup {
+  position: absolute;
+  left: -9999px;
+  top: -9999px;
+  z-index: 1050;
+}
+.rc-trigger-popup-hidden {
+  display: none;
+}
+.rc-trigger-popup-zoom-enter,
+.rc-trigger-popup-zoom-appear {
+  opacity: 0;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-timing-function: cubic-bezier(0.18, 0.89, 0.32, 1.28);
+          animation-timing-function: cubic-bezier(0.18, 0.89, 0.32, 1.28);
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.rc-trigger-popup-zoom-leave {
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-timing-function: cubic-bezier(0.6, -0.3, 0.74, 0.05);
+          animation-timing-function: cubic-bezier(0.6, -0.3, 0.74, 0.05);
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.rc-trigger-popup-zoom-enter.rc-trigger-popup-zoom-enter-active,
+.rc-trigger-popup-zoom-appear.rc-trigger-popup-zoom-appear-active {
+  -webkit-animation-name: rcTriggerZoomIn;
+          animation-name: rcTriggerZoomIn;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+.rc-trigger-popup-zoom-leave.rc-trigger-popup-zoom-leave-active {
+  -webkit-animation-name: rcTriggerZoomOut;
+          animation-name: rcTriggerZoomOut;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+@-webkit-keyframes rcTriggerZoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-transform: scale(0, 0);
+            transform: scale(0, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+}
+@keyframes rcTriggerZoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-transform: scale(0, 0);
+            transform: scale(0, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes rcTriggerZoomOut {
+  0% {
+    opacity: 1;
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-transform: scale(0, 0);
+            transform: scale(0, 0);
+  }
+}
+@keyframes rcTriggerZoomOut {
+  0% {
+    opacity: 1;
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-transform: scale(0, 0);
+            transform: scale(0, 0);
+  }
+}
+.rc-trigger-popup-mask {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #373737;
+  background-color: rgba(55, 55, 55, 0.6);
+  height: 100%;
+  filter: alpha(opacity=50);
+  z-index: 1050;
+}
+.rc-trigger-popup-mask-hidden {
+  display: none;
+}
+.rc-trigger-popup-fade-enter,
+.rc-trigger-popup-fade-appear {
+  opacity: 0;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-timing-function: cubic-bezier(0.55, 0, 0.55, 0.2);
+          animation-timing-function: cubic-bezier(0.55, 0, 0.55, 0.2);
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.rc-trigger-popup-fade-leave {
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-timing-function: cubic-bezier(0.55, 0, 0.55, 0.2);
+          animation-timing-function: cubic-bezier(0.55, 0, 0.55, 0.2);
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.rc-trigger-popup-fade-enter.rc-trigger-popup-fade-enter-active,
+.rc-trigger-popup-fade-appear.rc-trigger-popup-fade-appear-active {
+  -webkit-animation-name: rcTriggerMaskFadeIn;
+          animation-name: rcTriggerMaskFadeIn;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+.rc-trigger-popup-fade-leave.rc-trigger-popup-fade-leave-active {
+  -webkit-animation-name: rcDialogFadeOut;
+          animation-name: rcDialogFadeOut;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+@-webkit-keyframes rcTriggerMaskFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes rcTriggerMaskFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes rcDialogFadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes rcDialogFadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.ScheduleBlock-block-33jCC {
+  height: ~"calc(100% -  3px )";
+  overflow-y: hidden;
+  font-size: 14px;
+  text-overflow: ellipsis;
+  padding: 7%;
+  text-align: center;
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto;
+  line-height: 22px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.ScheduleBlock-alternativeHeading-2tNAd,
+.ScheduleBlock-timeHeading-1P2oH {
+  font-size: 12px;
+}
+.ScheduleBlock-alternation-3zlue:not(:last-child) {
+  border-bottom: 1px solid rgba(26, 26, 26, 0.2);
+}
+.ScheduleBlock-alternation-3zlue {
+  margin-bottom: 7.25px;
+  padding-bottom: 7.25px;
+}
+.ScheduleBlock-day-2mBqe {
+  margin-right: 3px;
+}
+.ScheduleBlock-block-33jCC {
+  border-left: 3px solid #ae5a39;
+  background-color: #fff3d6;
+}
+.ScheduleBlock-block-33jCC .ScheduleBlock-show-RHG94 a {
+  color: #3d9991;
+  font-weight: bold;
+  letter-spacing: 0.6px;
+}
+.ScheduleBlock-block-33jCC .ScheduleBlock-show-RHG94 a:hover {
+  text-decoration: underline;
+}
+.ScheduleBlock-block-33jCC a.ScheduleBlock-dj-3mK9x {
+  color: rgba(26, 26, 26, 0.7);
+  font-weight: inherit;
+}
+.ScheduleBlock-popupContainer-2cvwf {
+  width: 300px;
+}
+.ScheduleBlock-popupContainer-2cvwf > * {
+  background-color: #fffbf9;
+}
+.ScheduleBlock-dj-3mK9x:not(:last-child)::after {
+  content: ', ';
+}
+@media (max-width: 960px) {
+  .ScheduleBlock-dayNames-2O4L8 > * {
+    background-color: #fffbf9;
+    -webkit-box-shadow: 0px 2px 4px 0 rgba(26, 26, 26, 0.2);
+            box-shadow: 0px 2px 4px 0 rgba(26, 26, 26, 0.2);
+  }
+  .ScheduleBlock-dayNames-2O4L8 > *.ScheduleBlock-active-2mzdU {
+    color: #fffbf9;
+    background-color: #ae5a39;
+  }
+}
+.ScheduleBlock-slideUpEnter-3YtnU,
+.ScheduleBlock-slideUpAppear-1zgKj {
+  opacity: 0.01;
+  -webkit-transform: translateY(5px);
+          transform: translateY(5px);
+}
+.ScheduleBlock-slideUpEnterActive-10Syy,
+.ScheduleBlock-slideUpAppearActive-1TUyf {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+  -webkit-transition: opacity 70ms ease-in, -webkit-transform 70ms ease-in;
+  transition: opacity 70ms ease-in, -webkit-transform 70ms ease-in;
+  transition: opacity 70ms ease-in, transform 70ms ease-in;
+  transition: opacity 70ms ease-in, transform 70ms ease-in, -webkit-transform 70ms ease-in;
+}
+.ScheduleBlock-slideUpLeave-1S1BQ {
+  opacity: 1;
+}
+.ScheduleBlock-slideUpLeaveActive-Dn6GQ {
+  opacity: 0.01;
+  -webkit-transition: opacity 100ms ease-out, -webkit-transform 100ms ease-out;
+  transition: opacity 100ms ease-out, -webkit-transform 100ms ease-out;
+  transition: opacity 100ms ease-out, transform 100ms ease-out;
+  transition: opacity 100ms ease-out, transform 100ms ease-out, -webkit-transform 100ms ease-out;
+}
+.Schedule-container-1yuFr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+}
+.Schedule-container-1yuFr .Schedule-week-1Piyw {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+.Schedule-dayNames-3OEfM {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  margin-left: 40px;
+  text-align: center;
+  margin-bottom: 29px;
+}
+.Schedule-dayNames-3OEfM > * {
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  width: ~"calc( 14.28571429% - 5.71428571px )";
+}
+.Schedule-weekTimesContainer-27_Fr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+.Schedule-week-1Piyw {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.Schedule-day-1nMUN {
+  position: relative;
+  width: 14.28571429%;
+  overflow: hidden;
+}
+@media (max-width: 960px) {
+  .Schedule-week-1Piyw {
+    width: 100%;
+    overflow-x: scroll;
+    -ms-scroll-snap-type: mandatory;
+        scroll-snap-type: mandatory;
+    -webkit-overflow-scrolling: touch;
+    /* older spec implementation */
+    -ms-scroll-snap-destination: 0% ~"calc(100% + 3px)";
+        scroll-snap-destination: 0% ~"calc(100% + 3px)";
+    -ms-scroll-snap-points-x: repeat(~"calc(100% + 3px)");
+        scroll-snap-points-x: repeat(~"calc(100% + 3px)");
+  }
+  .Schedule-day-1nMUN {
+    width: 100%;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+    scroll-snap-align: start;
+    overflow: initial;
+  }
+  .Schedule-dayNames-3OEfM {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    margin: 0;
+    padding: 5%;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    z-index: 2;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    cursor: pointer;
+  }
+  .Schedule-dayNames-3OEfM > * {
+    font-size: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    line-height: 30px;
+  }
+  .Schedule-dayNames-3OEfM > *::first-letter {
+    font-size: 18px;
+  }
+}
+.Schedule-blockContainer-13SvF {
+  position: absolute;
+  width: 100%;
+}
+.Schedule-times-3PQnw {
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  font-size: 14px;
+  width: 40px;
+  font-variant: small-caps;
+  line-height: 0;
+  overflow: visible;
+}

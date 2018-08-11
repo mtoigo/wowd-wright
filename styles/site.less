@@ -864,9 +864,7 @@ a {
     display: block;
   }
 }
-
-
-
+ 
 
 // -----------------------------------------
 
@@ -875,6 +873,8 @@ a {
   color: #272727;
 }
 
+// WOWD ADDITIONS
+
 #playBar {
   min-height: 29px * 2;
   background-color: @playBarBackgroundColor;
@@ -882,4 +882,36 @@ a {
   @media screen and (min-width: 641px) {
     padding: 20px;
   }
+}
+
+.listenLiveNavItem .listenLiveNavButton {
+  float: left;
+  margin-right: 6px;
+  position: relative;
+  bottom: 5px;
+}
+
+.Mobile-overlay-nav-item.listenLiveNavItem .listenLiveNavButton {
+  bottom: 2px;
+}
+
+body > .listenLiveNavItem {
+  position: absolute;
+  top: -99999px;
+}
+
+// All the nav items must be taller to accomodate the one with the button
+.Header-nav--primary .Header-nav-item {
+  display: inline-block;
+  min-height: 21px;
+  position: relative;
+  top: 5px;
+}
+
+.Header-nav--secondary .listenLiveNavItem {
+  display: none;
+}
+
+.Header-nav-item {
+  cursor: pointer;
 }

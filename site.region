@@ -7,6 +7,20 @@
     {squarespace-headers}
   </head>
   <body id="{squarespace.page-id}" class="{squarespace.page-classes} sqs-has-custom-cart{.if website.logoImageUrl} has-logo-image{.or} has-site-title{.end}{.if website.siteTagLine} has-tagline{.end}{.if website.socialAccounts.0} has-social{.end}{.if showCart} has-cart{.end}{.if item}{.or}{.equal? collection.typeName "index"}{.section collection}{.repeated section collections}{.background-source-video?} has-parallax-images{.or}{.section mainImage} has-parallax-images{.end}{.end}{.end}{.end}{.or}{.section collection}{.background-source-video?} has-parallax-images{.or}{.section mainImage} has-parallax-images{.end}{.end}{.end}{.end}{.end} enable-load-effects<squarespace:navigation navigationId="mainNavigation">{.if items.0} has-primary-nav{.end}</squarespace:navigation><squarespace:navigation navigationId="secondaryNavigation">{.if items.0} has-secondary-nav{.end}</squarespace:navigation><squarespace:navigation navigationId="footerMainNavigation">{.if items.0} has-footer-nav{.end}</squarespace:navigation>{.equal? collection.typeName "index"}{.section collection}{.section collections.0}{.equal? typeName "gallery"} has-index-gallery-first{.end}{.end}{.end}{.end}{.if websiteSettings.userAccountsSettings.loginAllowed} has-user-accounts{.end}" data-controller="HashManager, SiteLoader, MobileClassname">
+    <div class="listenLiveNavItem" data-controller="ListenLiveNavItem">
+      <!--
+        Okay, so…
+        SVGs are insane. They must contain ids for masks and such,
+        which are not unique per instance of the SVG.
+        I can find no automatic way to make unique ids per icon instance.
+        So the first instance of an SVG icon is referenced for masks.
+        If that instance is in the mobile nav, which is usually hidden,
+        The ALL the play icons will be hidden :-(
+        So here's a super-hacky solution.
+        Insert a play button in the top of the body, which is offscreen, but not hidden.
+      -->
+      <div class="listenLiveNavButton"></div>
+    </div>
 
     <div class="Loader"></div>
 
@@ -129,7 +143,7 @@
           </div>
         </header>
         <header id="playBar">
-          <squarespace:block-field id="secondHeaderContent" columns="12"/>
+          <div data-controller="GlobalPlayer"></div>
         </header>
 
         <div class="Content-outer">
@@ -175,6 +189,8 @@
     </div>
 
     <squarespace:script src="site-bundle.js" combo="false" />
+    <squarespace:script src="app.bundle.js" combo="false" />
+
 
     {squarespace-footers}
 

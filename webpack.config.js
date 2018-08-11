@@ -1,5 +1,7 @@
 var webpack = require('webpack');
 var path = require('path');
+var CopyWebpackPlugin = require('copy-webpack-plugin')
+
 
 var scriptsPath = path.resolve(__dirname, 'build', 'scripts');
 
@@ -27,7 +29,8 @@ var config = {
       output: {
         comments: false
       }
-    })
+    }),
+    new CopyWebpackPlugin([{ from: './scripts/app.bundle.js', to: 'app.bundle.js' }])
   ]
 };
 

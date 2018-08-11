@@ -47,3 +47,25 @@ controller.register('VideoBackground', (element) => {
     Tweak.watch('tweak-overlay-parallax-enabled', handleTweak);
   });
 });
+controller.register('GlobalPlayer', (container) => {
+  WOWDComponents.renderGlobalPlayer(container);
+  WOWDComponents.activateLiveTrack();
+});
+controller.register('Shows', (container) => {
+  WOWDComponents.renderShows(container);
+});
+controller.register('Djs', (container) => {
+  WOWDComponents.renderDjs(container);
+});
+controller.register('Schedule', (container) => {
+  WOWDComponents.renderShowSchedule(container);
+});
+controller.register('ListenLiveNavItem', (element) => {
+  element.onclick = () => {
+    WOWDComponents.toggleLiveTrack();
+  };
+  const buttonContainer = element.querySelector('.listenLiveNavButton');
+  if (buttonContainer) {
+    WOWDComponents.renderLiveTrackPlayButton(buttonContainer);
+  }
+});
