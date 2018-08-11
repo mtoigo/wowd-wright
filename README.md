@@ -81,6 +81,21 @@ See `copyComponents.sh` for details.
 
 Commit your changes, then, deploy per the instructions above.
 
+## Development
+
+Node from WOWD developer Julian: The squarespace toolbelt appears permenantly broken.
+While you should be able to run `npm run server`, if that does not work, the server can be run manually.
+
+```sh
+
+squarespace-server http://takomaradio.squarespace.com  --directory=build
+```
+
+then navigate to localhost:9000
+
+Alternatively, run it against a staging site that looks like takomaradio.org.
+Also, SSL may need to be disabled on the site.
+
 ## NPM Script Reference
 
 This template's NPM scripts make extensive use of `squarespace` CLI commands. To learn more about what's happening under the hood, check out [Squarespace Toolbelt](https://github.com/Squarespace/squarespace-toolbelt) on Github.

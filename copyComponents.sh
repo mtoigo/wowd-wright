@@ -16,4 +16,4 @@ cp -v $COMPONENTS/app.bundle.js ./scripts/components.bundle.js
 # calc(100% - 5px) by trying to run the calculation.
 # Also, the development server version of Squarespace LESS mangles "1fr" into "1 fr".
 # This adds LESS escapes around these expressions.
-cat $COMPONENTS/style.bundle.css | sed -E -e 's/(calc[^\)]*\)|[0-9]fr)/~"\1"/' > ./styles/components.bundle.LESS
+cat $COMPONENTS/style.bundle.css | sed -E -e 's/(calc[^\)]*\)|[0-9]+fr)/~"\1"/' > ./styles/components.bundle.LESS
