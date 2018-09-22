@@ -46,7 +46,9 @@ First, add a git remote to the `build` git repository to point to Squarespace.
 
 For example:
 ```sh
+npm run build
 cd build
+git init .
 git remote add prod https://takomaradio.squarespace.com/template.git
 cd ..
 ```
