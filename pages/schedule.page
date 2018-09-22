@@ -1,1 +1,1 @@
-<div data-controller="Schedule"></div>
+<div data-controller="Schedule" class="full-width"></div>
