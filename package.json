@@ -45,7 +45,7 @@
     "eslint": "^3.14.1",
     "eslint-config-squarespace": "^1.0.0",
     "webpack": "^1.14.0",
-    "wowd-components": "1.0.0"
+    "wowd-components": "^1.0.1"
   },
   "squarespace": {
     "templateId": "wowd-wright"
