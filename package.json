@@ -31,10 +31,10 @@
     "babel-runtime": "6.22.0",
     "jump.js": "1.0.2",
     "raf": "3.3.0",
-    "url-parse": "1.1.8"
+    "url-parse": "^1.4.4"
   },
   "devDependencies": {
-    "@squarespace/toolbelt": "^0.8.7",
+    "@squarespace/toolbelt": "^0.9.1",
     "babel-core": "^6.17.0",
     "babel-eslint": "^7.1.1",
     "babel-loader": "^6.2.10",
@@ -45,7 +45,7 @@
     "eslint": "^3.14.1",
     "eslint-config-squarespace": "^1.0.0",
     "webpack": "^1.14.0",
-    "wowd-components": "^1.0.1"
+    "wowd-components": "^1.1.2"
   },
   "squarespace": {
     "templateId": "wowd-wright"
