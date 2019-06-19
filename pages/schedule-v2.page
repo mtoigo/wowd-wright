@@ -1,7 +1,53 @@
 <!-- CSS in spinitron
 
+/* --- WOWD TESTING BELOW --- */
 .wowd-schedule div.station {
   display: none;
+}
+.wowd-schedule .footer-container {
+  display: none;
+}
+.wowd-schedule .show-title {
+  margin-bottom: 10px !important;
+}
+
+.wowd-schedule .view-page {
+  padding-top: 0;
+}
+
+.wowd-schedule .view-page .head p {
+  margin: 5px 0;
+}
+
+
+.wowd-schedule .social-share {
+  display: none;
+}
+
+.wowd-schedule .show-categoty {
+  display: none;
+}
+
+.wowd-schedule .dj-name {
+  display: none;
+}
+
+.wowd-schedule .dj {
+  display: none;
+}
+
+.wowd-schedule .show-schedule li {
+  font-style: italic;
+}
+
+.wowd-schedule .description h3 a {
+  text-decoration: underline !important;
+}
+
+.wowd-schedule .grid-playlists::before {
+  content: "Recent Show Playlists";
+  font-size: 16pt;
+  font-weight: bolder;
 }
 
 -->
@@ -13,15 +59,5 @@ TODO: More testing on mobile to set the correct heigh + width, hide scrollbars
 */
 #schedule { border: 0; max-width: none;}
 </style>
-<script
-			  src="https://code.jquery.com/jquery-3.4.1.min.js"
-			  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-			  crossorigin="anonymous"></script>
-<script>
-$(document).ready(function(){
-    $('#schedule').ready(function(){
-        $('#schedule').contents().find('body').html('Hey, i`ve changed content of <body>! Yay!!!');
-    });
-});
-</script>
-<iframe id="schedule" src="https://spinitron.com/TEST/calendar?bodyclass=wowd-schedule" width="100%" height="1330px"></iframe>
+
+<iframe id="schedule" src="https://spinitron.com/TEST/calendar?bodyclass=wowd-schedule&amp;target=_top" width="100%" height="1330px"></iframe>
