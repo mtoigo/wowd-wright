@@ -864,7 +864,7 @@ a {
     display: block;
   }
 }
- 
+
 
 // -----------------------------------------
 
@@ -874,14 +874,73 @@ a {
 }
 
 // WOWD ADDITIONS
-
 #playBar {
-  min-height: 29px * 2;
-  background-color: @playBarBackgroundColor;
-  color: @playBarTextColor;
-  padding: 17px;
-  @media screen and (min-width: 641px) {
-    padding: 20px;
+  min-height: 58px;
+  background-color: #000;
+  color: #fff;
+  font-size: 14px;
+  line-height: 150%;
+  font-weight: bolder;
+
+  #playButton {
+    min-height: 29px * 2;
+    background-color: @playBarBackgroundColor;
+    color: @playBarTextColor;
+    padding: 17px;
+    margin: 0px;
+    width: 50px;
+    display: inline-block;
+
+    @media screen and (min-width: 641px) {
+      padding: 20px;
+    }
+
+    .TrackInfo-container-UznKU {
+      display: none;
+    }
+  }
+
+  #onAir {
+    display: inline-block;
+
+    .spinitron-js-widget .spin-art,
+    .spinitron-js-widget .spin-time,
+    .spinitron-js-widget .spin-icons,
+    .spinitron-js-widget .label,
+    .spinitron-js-widget .parenthesis,
+    .spinitron-js-widget .release {
+      display: none;
+    }
+
+    .spinitron-js-widget .spin-text .spin .artist {
+      color: #fff;
+    }
+
+    .spin-text {
+     display: flex;
+     flex-direction: column;
+    }
+
+    .meta {
+      display: flex;
+      order: 1;
+    }
+
+    .spin {
+      order: 2;
+    }
+
+    .meta .title {
+      float: left;
+      padding-right: 4px;
+    }
+
+    .dj:before{
+      content: "(";
+    }
+    .dj:after{
+      content: ")";
+    }
   }
 }
 
