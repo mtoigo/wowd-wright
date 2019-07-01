@@ -149,7 +149,7 @@
           </header>
           <div id="onAir">
             <b>ON AIR</b>
-            <div data-station="TEST" class="spinitron-js-widget" data-action="now-playing-v2" data-num="-1" data-meta="1"></div>
+            <div data-station="WOWD" class="spinitron-js-widget" data-action="now-playing-v2" data-num="-1" data-meta="1"></div>
             <script src="https://spinitron.com/static/js/widget.js"></script>
           </div>
         </div>
