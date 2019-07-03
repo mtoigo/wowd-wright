@@ -1,6 +1,6 @@
 <!-- CSS in spinitron
 
-/* --- WOWD TESTING BELOW --- */
+/* --- This is just here as a backup for what's in the Spinitron Admin Panel --- */
 .wowd-schedule div.station {
   display: none;
 }
