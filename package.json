@@ -9,9 +9,9 @@
     "url": "https://github.com/Squarespace/wright-framework.git"
   },
   "scripts": {
+    "deploy": "squarespace assemble && webpack && squarespace deploy",
     "build": "npm run copy-components && squarespace assemble && webpack",
     "clean": "squarespace clean",
-    "deploy": "squarespace setup && squarespace deploy",
     "lint": "eslint scripts",
     "start": "squarespace setup && (npm run watch & npm run server)",
     "server": "squarespace runserver --auth",
