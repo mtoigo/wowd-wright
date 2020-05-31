@@ -2,7 +2,6 @@ import { Tweak } from '@squarespace/core';
 import { getIndexSectionRect } from '../utils/getIndexSectionRect';
 import { addScrollListener, removeScrollListener } from '../utils/rafScroll';
 import resizeEnd from '../utils/resizeEnd';
-import { addIndexGalleryChangeListener, removeIndexGalleryChangeListener } from './IndexGallery';
 
 function IndexNavigation(element) {
   if (element.classList.contains('Index--empty')) {
@@ -109,12 +108,10 @@ function IndexNavigation(element) {
       sectionRects = getSectionRects();
     });
     addScrollListener('scroll', handleScroll);
-    addIndexGalleryChangeListener(sync);
   };
 
   const destroy = () => {
     removeScrollListener('scroll', handleScroll);
-    removeIndexGalleryChangeListener(sync);
   };
 
   sync();
