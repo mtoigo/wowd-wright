@@ -49,7 +49,6 @@
       </button>
     </div>
     <div data-nc-container="bottom-center">
-      {@|apply cart.block}
     </div>
     <div data-nc-container="bottom-right">
       {.if websiteSettings.userAccountsSettings.loginAllowed}
