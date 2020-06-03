@@ -6,12 +6,10 @@ import './polyfills/classList';
 
 import AncillaryLayout from './controllers/AncillaryLayout';
 import HeaderOverlay from './controllers/HeaderOverlay';
-import MobileOverlayFolders from './controllers/MobileOverlayFolders';
 import MobileOverlayToggle from './controllers/MobileOverlayToggle';
 
 controller.register('AncillaryLayout', AncillaryLayout);
 controller.register('HeaderOverlay', HeaderOverlay);
-controller.register('MobileOverlayFolders', MobileOverlayFolders);
 controller.register('MobileOverlayToggle', MobileOverlayToggle);
 controller.register('GlobalPlayer', (container) => {
   WOWDComponents.renderGlobalPlayer(container);
