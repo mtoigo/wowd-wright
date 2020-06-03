@@ -59,7 +59,6 @@
             <span class="auth">{localizedStrings.myAccount}</span>
           </button>
           <div class="user-accounts-icon">
-            {@|apply user-account-icon.block}
           </div>
         </div>
       {.end}
