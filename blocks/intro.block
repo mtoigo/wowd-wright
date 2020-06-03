@@ -1,4 +1,4 @@
-<section class="Intro{.background-source-video?} Intro--has-image{.or}{.main-image?} Intro--has-image{.end}" data-parallax-original-element data-parallax-id="{id}"{.background-source-video?} data-controller="Parallax"{.or}{.if main-image?} data-controller="Parallax"{.end}{.end}>
+<section class="Intro{.background-source-video?} Intro--has-image{.or}{.main-image?} Intro--has-image{.end}" data-parallax-original-element data-parallax-id="{id}"{.background-source-video?} data-controller="Parallax"{.end}>
   {.if collectionId}
     {# this is an item, not a collection. It's hard to tell since this partial takes both.}
     {# only collections should have an open block field. }
