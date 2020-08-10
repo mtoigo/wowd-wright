@@ -9,7 +9,7 @@
     "url": "https://github.com/Squarespace/wright-framework.git"
   },
   "scripts": {
-    "deploy": "squarespace assemble && webpack && ./node_modules/.bin/squarespace deploy && squarespace deploy"
+    "deploy": "squarespace assemble && webpack && squarespace deploy"
   },
   "dependencies": {
     "@squarespace/ancillary": "^1.0.2",
