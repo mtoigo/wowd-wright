@@ -875,25 +875,20 @@ a {
 
 // WOWD ADDITIONS
 #playBar {
-  min-height: 58px;
   background-color: #000;
   color: #fff;
   font-size: 14px;
   line-height: 150%;
-  font-weight: bolder;
+  vertical-align: top;
 
   #playButton {
-    min-height: 29px * 2;
     background-color: @playBarBackgroundColor;
     color: @playBarTextColor;
     padding: 17px;
     margin: 0px;
     width: 50px;
     display: inline-block;
-
-    @media screen and (min-width: 641px) {
-      padding: 20px;
-    }
+    padding: 20px 8px 20px 20px;
 
     .TrackInfo-container-UznKU {
       display: none;
@@ -902,51 +897,25 @@ a {
 
   #onAir {
     display: inline-block;
+    font-size: 14pt;
+    vertical-align: top;
+    padding-top: 34px;
+    font-family: Arial, Helvetica, sans-serif;
 
-    .spinitron-js-widget .spin-art,
-    .spinitron-js-widget .spin-time,
-    .spinitron-js-widget .spin-icons,
-    .spinitron-js-widget .label,
-    .spinitron-js-widget .parenthesis,
-    .spinitron-js-widget .release,
-    .spinitron-js-widget .description,
-    .spinitron-js-widget .email,
-    .spinitron-js-widget .website,
-    .spinitron-js-widget .bio,
-    .spinitron-js-widget .since,
-    .spinitron-js-widget .episode-name,
-    .spinitron-js-widget .episode-description {
-      display: none;
+    #onAirNow {
+      display: inline-block;
     }
 
-    .spinitron-js-widget .spin-text .spin .artist {
-      color: #fff;
-    }
+    iframe {
+      border: 0;
+      margin-top: 1px;
+      height: 50px;
+      width: 550px;
+      vertical-align: top;
 
-    .spin-text {
-     display: flex;
-     flex-direction: column;
-    }
-
-    .meta {
-      display: flex;
-      order: 1;
-    }
-
-    .spin {
-      order: 2;
-    }
-
-    .meta .title {
-      float: left;
-      padding-right: 4px;
-    }
-
-    .dj:before{
-      content: "(";
-    }
-    .dj:after{
-      content: ")";
+      @media screen and (max-width: 751px) {
+        width: 345px;
+      }
     }
   }
 }

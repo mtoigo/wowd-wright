@@ -10,3 +10,5 @@
 #Using latest versions of squarespace tooling, using an old version of webpack, config looked like it would have needed a bunch of changes for the latest version of webpack
 # also old version of copy-webpack-plugin
 # also old version of "babel-loader": "^6.2.10", and other babel modules
+
+#START NEXT TIME - Setting up all 3 iFrames to refresh

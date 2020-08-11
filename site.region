@@ -123,9 +123,8 @@
             <div data-controller="GlobalPlayer"></div>
           </header>
           <div id="onAir">
-            <b>ON AIR</b>
-            <div class="spinitron-js-widget" data-station="wowd" data-action="now-playing-v2" data-meta="1"></div>
-            <script async src="//spinitron.com/static/js/widget.js"></script>
+            <span id="onAirNow">On Air Now:</span>
+            <iframe id="nowPlaying" scrolling="no" src="https://widgets.spinitron.com/widget/now-playing-v2?station=wowd&amp;num=1&amp;sharing=0&amp;cover=0&amp;player=0&amp;merch=0&amp;meta=1&amp;bodyclass=nowPlaying" allow="encrypted-media"></iframe>
           </div>
         </div>
 
@@ -166,11 +165,11 @@
                   <section class="homepageSpinitron">
                     <section id="recentlyPlayed">
                       <h4>Recently Played</h4>
-                      <iframe src="https://widgets.spinitron.com/widget/now-playing-v2?station=wowd&num=5&sharing=0&cover=0&player=0&merch=1&meta=0&bodyclass=recentlyPlayed" allow="encrypted-media" scrolling="no"></iframe>
+                      <iframe scrolling="no" src="https://widgets.spinitron.com/widget/now-playing-v2?station=wowd&num=5&sharing=0&cover=0&player=0&merch=1&meta=0&bodyclass=recentlyPlayed" allow="encrypted-media" scrolling="no"></iframe>
                     </section>
                     <section id="upcomingShows">
                       <h4>Upcoming Shows</h4>
-                      <iframe src="https://widgets.spinitron.com/widget/upcoming-shows?station=wowd&count=5&bodyclass=upcomingShows" allow="encrypted-media" scrolling="no"></iframe>
+                      <iframe scrolling="no" src="https://widgets.spinitron.com/widget/upcoming-shows?station=wowd&count=5&bodyclass=upcomingShows" allow="encrypted-media" scrolling="no"></iframe>
                     </section>
                   </section>
                 {.end}
