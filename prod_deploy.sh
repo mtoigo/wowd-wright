@@ -11,4 +11,10 @@
 # also old version of copy-webpack-plugin
 # also old version of "babel-loader": "^6.2.10", and other babel modules
 
-#START NEXT TIME - Setting up all 3 iFrames to refresh
+# BUGS
+
+# FAST FOLLOWS
+Maybe hiding timestamps for recently played + upcoming shows on smaller screen sizes
+Text getting cut off on right side of Recently Played on smaller screen sizes
+  - Problem here is this content in the iFrame is in a table for Recently Played, Upcoming Shows is divs
+  - Could maybe add right padding to both so they cutoff cleaner than on the very edge

@@ -165,11 +165,11 @@
                   <section class="homepageSpinitron">
                     <section id="recentlyPlayed">
                       <h4>Recently Played</h4>
-                      <iframe scrolling="no" src="https://widgets.spinitron.com/widget/now-playing-v2?station=wowd&num=5&sharing=0&cover=0&player=0&merch=1&meta=0&bodyclass=recentlyPlayed" allow="encrypted-media" scrolling="no"></iframe>
+                      <iframe id="recentlyPlayedI" scrolling="no" src="https://widgets.spinitron.com/widget/now-playing-v2?station=wowd&num=5&sharing=0&cover=0&player=0&merch=1&meta=0&bodyclass=recentlyPlayed" allow="encrypted-media" scrolling="no"></iframe>
                     </section>
                     <section id="upcomingShows">
                       <h4>Upcoming Shows</h4>
-                      <iframe scrolling="no" src="https://widgets.spinitron.com/widget/upcoming-shows?station=wowd&count=5&bodyclass=upcomingShows" allow="encrypted-media" scrolling="no"></iframe>
+                      <iframe id="upcomingShowsI" scrolling="no" src="https://widgets.spinitron.com/widget/upcoming-shows?station=wowd&count=5&bodyclass=upcomingShows" allow="encrypted-media" scrolling="no"></iframe>
                     </section>
                   </section>
                 {.end}

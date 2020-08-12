@@ -22,3 +22,18 @@ controller.register('ListenLiveNavItem', (element) => {
     WOWDComponents.renderLiveTrackPlayButton(buttonContainer);
   }
 });
+
+// Spinitron Homepage iFrame auto refresh
+const refreshInterval = 300000;
+
+window.reloadIFrame = function() {
+  const nowPlaying = document.getElementById("nowPlaying");
+  const recentlyPlayed = document.getElementById("recentlyPlayedI");
+  const upcomingShows = document.getElementById("upcomingShowsI");
+
+  nowPlaying.src += '';
+  recentlyPlayed.src += '';
+  upcomingShows.src += '';
+};
+
+window.setInterval("reloadIFrame()", refreshInterval);
