@@ -160,7 +160,7 @@
             {.or}
               <section class="Main-content" data-content-field="main-content">
 
-                {.equal? collection.urlId "home-v2"}
+                {.equal? collection.urlId "home-2"}
 
                   <section class="homepageSpinitron">
                     <section id="recentlyPlayed">
