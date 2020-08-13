@@ -70,7 +70,7 @@
   </div>
 
   <div class="Mobile-overlay">
-    <div class="Mobile-overlay-menu">
+    <div class="Mobile-overlay-menu" data-controller="MobileOverlayFolders">>
       <div class="Mobile-overlay-menu-main">
         <nav class="Mobile-overlay-nav Mobile-overlay-nav--primary" data-content-field="navigation">
           <a data-controller="ListenLiveNavItem" class="Mobile-overlay-nav-item listenLiveNavItem">

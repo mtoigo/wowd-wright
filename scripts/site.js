@@ -6,9 +6,12 @@ import './polyfills/classList';
 
 import AncillaryLayout from './controllers/AncillaryLayout';
 import MobileOverlayToggle from './controllers/MobileOverlayToggle';
+import MobileOverlayFolders from './controllers/MobileOverlayFolders';
 
 controller.register('AncillaryLayout', AncillaryLayout);
 controller.register('MobileOverlayToggle', MobileOverlayToggle);
+controller.register('MobileOverlayFolders', MobileOverlayFolders);
+
 controller.register('GlobalPlayer', (container) => {
   WOWDComponents.renderGlobalPlayer(container);
   WOWDComponents.activateLiveTrack();
