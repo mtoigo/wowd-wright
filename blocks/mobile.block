@@ -1,5 +1,5 @@
 <div class="Mobile" data-nc-base="mobile-bar" data-controller="AncillaryLayout">
-  <div class="Mobile-bar Mobile-bar--top" data-nc-group="top" data-controller="MobileOffset">
+  <div class="Mobile-bar Mobile-bar--top" data-nc-group="top">
 
     <div data-nc-container="top-left">
       <a href="/" class="Mobile-bar-branding" data-nc-element="branding" data-content-field="site-title">
@@ -15,7 +15,7 @@
     <div data-nc-container="top-center"></div>
     <div data-nc-container="top-right"></div>
   </div>
-  <div class="Mobile-bar Mobile-bar--bottom" data-nc-group="bottom" data-controller="MobileOffset">
+  <div class="Mobile-bar Mobile-bar--bottom" data-nc-group="bottom">
     <div data-nc-container="bottom-left">
       <button class="Mobile-bar-menu" data-nc-element="menu-icon" data-controller-overlay="menu" data-controller="MobileOverlayToggle">
         <svg class="Icon Icon--hamburger" viewBox="0 0 24 18">
@@ -49,7 +49,6 @@
       </button>
     </div>
     <div data-nc-container="bottom-center">
-      {@|apply cart.block}
     </div>
     <div data-nc-container="bottom-right">
       {.if websiteSettings.userAccountsSettings.loginAllowed}
@@ -59,7 +58,6 @@
             <span class="auth">{localizedStrings.myAccount}</span>
           </button>
           <div class="user-accounts-icon">
-            {@|apply user-account-icon.block}
           </div>
         </div>
       {.end}
@@ -72,7 +70,7 @@
   </div>
 
   <div class="Mobile-overlay">
-    <div class="Mobile-overlay-menu" data-controller="MobileOverlayFolders">
+    <div class="Mobile-overlay-menu" data-controller="MobileOverlayFolders">>
       <div class="Mobile-overlay-menu-main">
         <nav class="Mobile-overlay-nav Mobile-overlay-nav--primary" data-content-field="navigation">
           <a data-controller="ListenLiveNavItem" class="Mobile-overlay-nav-item listenLiveNavItem">
