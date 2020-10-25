@@ -40,3 +40,17 @@ window.reloadIFrame = function() {
 };
 
 window.setInterval("reloadIFrame()", refreshInterval);
+
+// Hide instructions above Schedule iFrame when a link inside is clicked
+const schedule = document.getElementById('schedule');
+const scheduleInstructions = document.getElementById('archive-instructions');
+const scheduleInstructionsTitle = document.getElementById('archive-instructions-title');
+window.clicksInSchedule = 0;
+window.scheduleFrameLoad = function() {
+
+  if (clicksInSchedule >= 1) {
+    scheduleInstructions.style.display = 'none';
+    scheduleInstructionsTitle.style.display = 'none';
+  }
+  clicksInSchedule++;
+};
