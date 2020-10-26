@@ -1,6 +1,67 @@
 <!-- CSS in spinitron
 
-/* --- This is just here as a backup for what's in the Spinitron Admin Panel --- */
+/* Styling for iFrame at https://takomaradio.org/schedule -> https://spinitron.com/WOWD/calendar?bodyclass=wowd-schedule */
+
+/* ARK Player Styling */
+
+div.view-page div.ark-player {
+ display: none;
+}
+
+.pl div.view-page div.ark-player, .show div.view-page div.ark-player {
+  display: inline-flex;
+  margin-bottom: 40px;
+  border: 2px solid #778899;
+  box-shadow: 3px 3px 5px #D3D3D3;
+}
+
+.pl div.view-page div.ark-player::after, .show div.view-page div.ark-player::after {
+  content: '\A Need help with the archive player?';
+  white-space: pre;
+  display: block;
+  position: absolute;
+  top: 12px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .pl div.view-page div.ark-player::after, .show div.view-page div.ark-player::after {
+    display: none;
+  }
+}
+
+.pl div.view-page div.ark-player:hover:after, .show div.view-page div.ark-player:hover:after {
+  border: 3px solid grey;
+  box-shadow: 3px 3px 5px #D3D3D3;
+  background: #fff;
+  content: '- To start the most recent episode at the beginning, click the green PLAY arrow\A - To shift the starting point, click on the HOUR and MINUTES field; and choose the hour/minutes from the drop-down menus \A - To hear a prior episode of the show, click on the DATE field, and select a date from the drop-down menu';
+  white-space: pre;
+  top: 40px;
+  border-radius: 10px;
+  left: -2px;
+  padding: 10px;
+  color: #696969;
+  z-index: 100;
+  width: auto;
+}
+
+.ark-player__play svg, .ark-player__pause svg {
+  fill: #228B22;
+}
+
+.wowd-schedule div.view-page > div:nth-child(3n) {
+ display: none;
+}
+
+.pl div.view-page::before, .show div.view-page::before {
+  content: 'WOWD ARCHIVE PLAYER';
+  display: block;
+  font-size: 16pt;
+  font-weight: bolder;
+  color: darkred;
+}
+
+/* Schedule Styling */
+
 .wowd-schedule div.station {
   display: none;
 }
@@ -10,44 +71,130 @@
 .wowd-schedule .show-title {
   margin-bottom: 10px !important;
 }
-
 .wowd-schedule .view-page {
   padding-top: 0;
 }
-
 .wowd-schedule .view-page .head p {
   margin: 5px 0;
 }
-
-
 .wowd-schedule .social-share {
   display: none;
 }
-
 .wowd-schedule .show-categoty {
   display: none;
 }
-
 .wowd-schedule .dj-name {
   display: none;
 }
-
 .wowd-schedule .dj {
   display: none;
 }
-
 .wowd-schedule .show-schedule li {
   font-style: italic;
 }
-
 .wowd-schedule .description h3 a {
   text-decoration: underline !important;
 }
-
 .wowd-schedule .grid-playlists::before {
   content: "Recent Show Playlists";
   font-size: 16pt;
   font-weight: bolder;
+}
+
+/* New WOWD Now Playing iFrame */
+.nowPlaying .spin-time, .nowPlaying .spin,  .nowPlaying .info, .nowPlaying .description, .nowPlaying .episode-name,  .nowPlaying .episode-description, .nowPlaying .email, .nowPlaying .website, .nowPlaying .bio, .nowPlaying .name, .nowPlaying .since {
+display: none;
+}
+
+.nowPlaying {
+background: #000;
+color: #fff;
+padding: 0px;
+}
+
+.nowPlaying table {
+border-collapse: collapse;
+line-height: 1;
+}
+
+.nowPlaying .title {
+display: inline-block;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14pt;
+-webkit-font-smoothing: antialiased;
+font-weight: bolder;
+text-transform: uppercase;
+}
+
+/* New WOWD Recently Played iFrame */
+.recentlyPlayed {
+padding: 10px;
+background: #000;
+color: #fff;
+}
+
+.recentlyPlayed .parenthesis, .recentlyPlayed .info, .recentlyPlayed .spin-icons, .recentlyPlayed .note {
+display: none;
+}
+
+.recentlyPlayed .spin {
+white-space: nowrap;
+}
+
+.recentlyPlayed .spin-time {
+padding-right: 10px;
+vertical-align: top;
+}
+
+.recentlyPlayed .public-spins .spin-time a {
+color: #fff;
+font-size: 0.9rem;
+pointer-events: none;
+text-decoration: none;
+}
+
+.recentlyPlayed .public-spins .spin-text .artist {
+color: #fff;
+}
+
+/* New WOWD Upcoming Shows iFrame */
+.upcomingShows {
+padding: 10px;
+background: #000;
+color: #fff;
+}
+
+.upcomingShows .title {
+font-weight: bolder;
+}
+
+.upcomingShows a {
+pointer-events: none;
+text-decoration: none;
+color: #fff;
+}
+
+.upcomingShows .begin {
+display: inline-block;
+padding-right: 10px;
+width: 100px;
+}
+
+.upcomingShows .show {
+margin-bottom: 5px;
+white-space: nowrap;
+}
+
+.upcomingShows .djs::before {
+  content: "(";
+}
+
+.upcomingShows .djs::after {
+  content: ")";
+}
+
+.upcomingShows .category {
+display: none;
 }
 
 -->
