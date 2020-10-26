@@ -56,8 +56,8 @@
 <h3 id="archive-instructions-title">USING THE WOWD ARCHIVES TO HEAR  RECENT EPISODES OF YOUR FAVORITE SHOWS</h3>
 
 <ul id="archive-instructions">
-<li>In the schedule grid below, click a <strong>past program <span>highlighted in green</span></strong> you want to hear. If necessary, use the back arrow to go to the previous week.</li>
-<li>Look for the ARK Player <img src="/assets/ark_player.png" alt="Ark Player"> and click the green play button or choose the hour + minutes you want to jump to in the episode.
+<li>In the schedule grid below, click the <strong>past program with a <span>green background</span></strong> you want to hear. If necessary, use the back arrow to go to the previous week.</li>
+<li>Look for the <strong>WOWD ARCHIVE PLAYER</strong> <img src="/assets/ark_player.png" alt="Ark Player"> and click the green play button or choose the hour + minutes you want to jump to in the episode.
 </ul>
 
 <iframe id="schedule" src="https://spinitron.com/WOWD/calendar?bodyclass=wowd-schedule" width="100%" height="1330px" onload="scheduleFrameLoad()"></iframe>
