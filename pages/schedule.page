@@ -208,7 +208,7 @@ display: none;
 <li>Look for the <strong style="color: darkred">WOWD ARCHIVE PLAYER</strong> <img src="/assets/ark_player.png" alt="Ark Player"> and click the green play button or choose the hour + minutes you want to jump to in the episode.</li>
 </ul>
 <ul id="archive-instructions-mobile"> 
-<li>Scroll down and choose a <strong>past episode</strong> from this week or use the arrows to navigate to a past week.</li>
+<li>Scroll down and choose a <strong>past episode</strong> from this week or use the arrows to navigate to a previous week.</li>
 <li>Look for <img src="/assets/ark_player.png" alt="Ark Player"></li>
 </ul>
 
