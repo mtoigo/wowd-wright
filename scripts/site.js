@@ -45,12 +45,16 @@ window.setInterval("reloadIFrame()", refreshInterval);
 const schedule = document.getElementById('schedule');
 const scheduleInstructions = document.getElementById('archive-instructions');
 const scheduleInstructionsTitle = document.getElementById('archive-instructions-title');
+const scheduleInstructionsMobile = document.getElementById('archive-instructions-mobile');
+const scheduleInstructionsTitleMobile = document.getElementById('archive-instructions-title-mobile');
 window.clicksInSchedule = 0;
 window.scheduleFrameLoad = function() {
 
   if (clicksInSchedule >= 1) {
     scheduleInstructions.style.display = 'none';
     scheduleInstructionsTitle.style.display = 'none';
+    scheduleInstructionsMobile.style.display = 'none';
+    scheduleInstructionsTitleMobile.style.display = 'none';
   }
   clicksInSchedule++;
 };

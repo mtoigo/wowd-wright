@@ -1298,7 +1298,23 @@
 @playBarTextColor: white;
 
 // Spinitron Schedule Page
-#archive-instructions {
+#archive-instructions-title {
+
+  @media screen and (max-width: 727px) {
+    display: none;
+  }
+}
+
+#archive-instructions-title-mobile {
+
+  display: none;
+  @media screen and (max-width: 727px) {
+    display: block;
+    margin-top: 0;
+  }
+}
+
+#archive-instructions{
   font-size: 13pt;
   margin-bottom: 40px;
 
@@ -1312,5 +1328,27 @@
     position: relative;
     top: 12px;
   }
+
+  @media screen and (max-width: 727px) {
+    display: none;
+  }
 }
+
+#archive-instructions-mobile {
+  display: none;
+
+  img {
+    width: 220px;
+    display: inline-block;
+    position: relative;
+    top: 12px;
+  }
+
+  @media screen and (max-width: 727px) {
+    display: block;
+  }
+}
+
+// 727 @media screen and (max-width: 1119px) {
+
 #schedule { border: 0; max-width: none;}
